@@ -1,0 +1,13 @@
+{
+  "name": "nanohtml-sourcemap-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify --debug -t nanohtml . > build.js"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "nanohtml": "^1.3.0"
+  }
+}
